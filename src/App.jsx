@@ -55,7 +55,7 @@ function App() {
           </button>
         </div>
         {/* range + numbers + characters box */}
-        <div className="input-box flex gap-2">
+        <div className="input-box flex flex-wrap md:flex-nowrap gap-2">
           <div className="len flex gap-1 items-end ">
             <input
               type="range"
